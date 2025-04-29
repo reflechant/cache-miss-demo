@@ -6,6 +6,7 @@ Run the code with `go test -bench=.`
 
 Results for me look like this:
 
+```
 goos: linux
 goarch: amd64
 pkg: github.com/reflechant/cache-miss
@@ -18,3 +19,4 @@ BenchmarkCPADOD-8               47681769                24.34 ns/op
 BenchmarkCPADODTwoLoops-8       20639508                65.87 ns/op
 PASS
 ok      github.com/reflechant/cache-miss        12.613s
+```
